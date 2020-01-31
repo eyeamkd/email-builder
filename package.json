@@ -20,6 +20,7 @@
   "author": "Artur Arseniev",
   "license": "BSD-3-Clause",
   "dependencies": {
+    "grapesjs": "^0.15.10",
     "juice": "^4.1.1",
     "node-gyp": "^6.1.0"
   },
@@ -30,6 +31,7 @@
     "babel-preset-stage-3": "^6.24.1",
     "cross-env": "^5.0.5",
     "eslint": "^4.1.1",
+    "grapesjs-cli": "^1.0.11",
     "jest": "^23.1.0",
     "node-sass": "^4.13.1",
     "webpack": "^3.5.5",
@@ -39,5 +41,13 @@
     "modulePaths": [
       "./src"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyeamkd/email-builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eyeamkd/email-builder/issues"
+  },
+  "homepage": "https://github.com/eyeamkd/email-builder#readme"
 }
