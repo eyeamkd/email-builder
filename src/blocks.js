@@ -137,6 +137,16 @@ define(function() {
           'min-width': '50px'
         }
       },
+    }); 
+    bm.add('handlebar-text-sect',{ 
+      label: opt.handleBarText, 
+      category:opt.categoryLabel, 
+      attributes:{class:'fa fa-i-cursor'},  
+      textable:1,
+      content:{ 
+         type:'var-placeholder'
+      }
+  
     });
     let gridItem =
       `<table class="grid-item-card">
